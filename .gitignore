@@ -42,7 +42,8 @@ logs/
 Thumbs.db
 
 # ==============================
-# Docker
+# Docker e Airflow
 # ==============================
 
+airflow.cfg
 docker-compose.yaml
