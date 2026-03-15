@@ -56,7 +56,7 @@ project
 
 ---
 
-## Funcionalidades
+## Funcionalidades ⚒️ 
 
 * Consumo automático de API de clima
 * Pipeline ETL modular em Python
@@ -70,7 +70,7 @@ project
 
 ## Dados Armazenados
 
-O pipeline salva informações como:
+O pipeline salva informações como: 🌥️
 
 * Cidade
 * Clima
@@ -84,7 +84,7 @@ O pipeline salva informações como:
 
 ---
 
-## Executando o Projeto
+## Executando o Projeto 💻
 
 ### 1. Clonar o repositório
 
@@ -117,4 +117,4 @@ http://localhost:8080
 
 Projeto desenvolvido para fins de **estudo e prática em Engenharia de Dados**.
 
-Se este projeto te ajudou ou inspirou, considere dar uma estrela no repositório.
+Se este projeto te ajudou ou inspirou, considere dar uma estrela no repositório. ⭐
