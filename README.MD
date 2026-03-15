@@ -121,6 +121,23 @@ http://localhost:8080
 
 ---
 
+### 6. Acessar o Airflow
+
+Orquestre do seu próprio jeito, faça seus testes e sinta-se livre pra modificar o projeto!
+![Airflow DAG](images/dag.png)
+
+### 7. Acessar o Banco de Dados
+
+No terminal, digite:
+```
+docker compose exec postgres psql -U airflow -d airflow
+```
+```
+SELECT * FROM dados_clima
+```
+![PostgreSQL](images/postgresql.png)
+
+
 Projeto desenvolvido para fins de **estudo e prática em Engenharia de Dados**.
 
 Se este projeto te ajudou ou inspirou, considere dar uma estrela no repositório. ⭐
