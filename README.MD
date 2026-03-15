@@ -4,7 +4,7 @@ Pipeline ETL automatizado desenvolvido em **Python** que consome dados climátic
 
 ---
 
-## Visão Geral
+## Visão Geral 🗄️
 
 Este projeto implementa um fluxo completo de **Extração, Transformação e Carga (ETL)**.
 
