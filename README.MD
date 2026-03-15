@@ -19,11 +19,17 @@ Armazena os dados processados em um banco de dados PostgreSQL.
 - Tech Stack
 
 Python
+
 Apache Airflow
+
 PostgreSQL
+
 Docker e Docker Compose
+
 Pandas
+
 Requests
+
 SQLAlchemy
 
 
