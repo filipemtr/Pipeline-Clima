@@ -1,4 +1,4 @@
-## 🌦️ Climate ETL Pipeline
+## 🌦️ Pipeline Climático
 
  Pipeline ETL automatizado desenvolvido em Python que consome dados climáticos de uma API, orquestrado automaticamente e executado a cada uma hora. Processa as informações e armazena os resultados em um banco de dados PostgreSQL visando futura análise!
 
