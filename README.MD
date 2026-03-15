@@ -98,14 +98,19 @@ cd seu-repo
 
 Criar o arquivo `.env` seguindo o modelo do `example.env`.
 
-### 3. Subir os containers
+### 3. Criar o arquivo `docker-compose.yaml`
+
+Crie o seu próprio docker-compose e configure ele como preferir.
+(Padrão do jeito que está ele já funciona desde que você coloque corretamente as variáveis do .env)
+
+### 4. Subir os containers
 
 ```
 docker compose up airflow-init
 docker compose up
 ```
 
-### 4. Acessar o Airflow
+### 5. Acessar o Airflow
 
 ```
 http://localhost:8080
