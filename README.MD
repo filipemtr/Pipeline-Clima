@@ -1,6 +1,6 @@
 # 🌦️ Pipeline Climático
 
-Pipeline ETL automatizado desenvolvido em **Python** que consome dados climáticos de uma API, orquestrado automaticamente e executado a cada **uma hora**. Processa as informações e armazena os resultados em um banco de dados **PostgreSQL**, visando futura análise.
+Pipeline ETL automatizado desenvolvido em **Python** que consome dados climáticos de uma API, orquestrado automaticamente e é executado a cada **uma hora**. Processa as informações e armazena os resultados em um banco de dados **PostgreSQL**, visando futura análise.
 
 ---
 
@@ -37,7 +37,8 @@ Armazena os dados processados em um banco de dados **PostgreSQL**.
 ## Estrutura do Projeto
 
 ```
-project
+pipeline-automatizado
+├── config/
 │
 ├── dags/
 │   └── etl-pipeline.py
