@@ -1,0 +1,48 @@
+# ==============================
+# Python
+# ==============================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribuição / build
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# Ambiente virtual
+.venv/
+venv/
+env/
+ENV/
+
+# Arquivos de ambiente
+.env
+.env.*
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# IDEs
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# Sistema Operacional
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Docker
+# ==============================
+
+docker-compose.yaml
