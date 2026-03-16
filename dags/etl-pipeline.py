@@ -17,8 +17,8 @@ load_dotenv()
 sys.path.append('/opt/airflow')
 
 default_args = {
-    "retries": 3,
-    "retry_delay": timedelta(minutes=1),
+    "retries": 5,
+    "retry_delay": timedelta(seconds=10),
     "email": os.getenv('EMAIL'),
     "email_on_failure": True
 }
