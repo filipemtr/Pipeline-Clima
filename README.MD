@@ -103,14 +103,23 @@ Criar o arquivo `.env` seguindo o modelo do `example.env`.
 Crie o seu próprio docker-compose e configure ele como preferir.
 (Padrão do jeito que está ele já funciona desde que você coloque corretamente as variáveis do .env)
 
-### 4. Subir os containers
+### 4. Ajustar permissões do container do Airflow
+
+Isso impede que erros de permissão acontecam ao iniciar o airflow-init:
+
+```
+sudo chown -R 50000:0 dags logs plugins
+sudo chmod -R 775 dags logs plugins
+```
+
+### 5. Subir os containers
 
 ```
 docker compose up airflow-init
 docker compose up
 ```
 
-### 5. Acessar o Airflow
+### 6. Acessar o Airflow
 
 ```
 http://localhost:8080
@@ -121,12 +130,12 @@ http://localhost:8080
 
 ---
 
-### 6. Acessar o Airflow
+### 7. Acessar o Airflow
 
 Orquestre do seu próprio jeito, faça seus testes e sinta-se livre pra modificar o projeto!
 ![Airflow DAG](images/dag.png)
 
-### 7. Acessar o Banco de Dados
+### 8. Acessar o Banco de Dados
 
 No terminal, digite:
 ```
